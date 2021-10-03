@@ -1,0 +1,50 @@
+site_name: SpiDoc
+repo_url: https://github.com/Minemobs/Spi-Doc
+repo_name: Minemobs/Spi-Doc
+edit_uri: ""
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/minemobs_
+      name: minemobs on Twitter
+    - icon: fontawesome/brands/github
+      link: https://github.com/minemobs  
+      name: minemobs on Github
+  commands:
+    runclient: 10
+nav:
+    - Accueil: index.md
+    - Texture Pack: textures.md
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - toc.integrate
+  icon:
+    logo: material/cube
+    repo: fontawesome/brands/github
+  palette:
+
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.emoji
