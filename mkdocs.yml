@@ -14,7 +14,7 @@ extra:
     runclient: 10
 nav:
     - Accueil: index.md
-    - Texture Pack: textures.md
+    - Blocs Personnalisés : customblock.md
 theme:
   name: material
   features:
